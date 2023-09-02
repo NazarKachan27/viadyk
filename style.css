@@ -1,46 +1,24 @@
-header {
-    background-color: lightgrey;
-    padding: 10px;
-    border-radius: 10px;
-}
-header img {
-    height: 200px;
-    width: 300px;
-}
 body {
+    width: 1200px;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    width: 1345px;
 }
-header h1 {
+a {
     color: white;
-    text-align: center;
-}
-.via {
-    width: 650px;
-    background-color: black;
-    margin-top: 10px;
-    padding: 10px;
-    border-radius: 10px;
-}
-.via1 {
-    width: 650px;
-    height: 400px;
-}
-.viad {
+    margin: 10px;
     text-decoration: none;
-    font-size: 17px;
-    color: white;
-    margin-left: 280px;
 }
-.tere {
-    display: flex;
-    justify-content: flex-start;
-}
-.kos {
-    width: 650px;
-    background-color: black;
+nav {
+    text-align: center;
     margin-top: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    margin-left: 5px;
+    font-size: 26px;
+}
+a:hover {
+    border-bottom: 2px solid white;
+    margin-bottom: 5px;
+}
+.img {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("https://s3-alpha-sig.figma.com/img/cb56/bb8c/2d3434f0b373b81584eb074054e4ea91?Expires=1694390400&Signature=g11uREkbY0QhOKcqNydpFceUpZkXz2herpNM5txGjRxNoIM-vbW2xYxtEnDMOriLsl43N6dG6aKodFYh4cwDL3wu4chTkvVDqEOhOz50LwWfxOE0Vl5dL4fIetUjcXQo9R7F9YSwPfEFKTtYzDaLfWX2PSHhgau6MGImfoWuGXT4FGxIFgyP8e~Baz1tq45wA8DP4cLRBh0d55~OHKqJ0AXrEmBV6EXTPYPcIB5IkyqrzSMafi7Hxoyn4BJhLI9uN7peq~rGMwdxwlh6SpYjbv8EaOh8ZgL3J-pGClW85Z~xtCHO~t54E2vAM-2xGTZBtf2DkNoWxxplONPhOavFBQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+    background-color: transparent;
 }
