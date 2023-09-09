@@ -1,24 +1,69 @@
 body {
-    width: 1200px;
+    width: 1300px;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    min-height: 100%;
+    min-width: 100%;
+    font-weight: 400;
+    font-size: 18px;
+    overflow: visible !important;
+    background-color: #f2f2f2;
 }
-a {
+.nav {
     color: white;
-    margin: 10px;
     text-decoration: none;
+    padding: 6px 8px;
+    margin-top: 15px;
+    display: inline-block;
 }
 nav {
     text-align: center;
-    margin-top: 10px;
     font-size: 26px;
+    list-style-type: none;
 }
-a:hover {
+.nav:hover {
     border-bottom: 2px solid white;
     margin-bottom: 5px;
 }
-.img {
-    margin: 0px;
-    padding: 0px;
-    background-image: url("https://s3-alpha-sig.figma.com/img/cb56/bb8c/2d3434f0b373b81584eb074054e4ea91?Expires=1694390400&Signature=g11uREkbY0QhOKcqNydpFceUpZkXz2herpNM5txGjRxNoIM-vbW2xYxtEnDMOriLsl43N6dG6aKodFYh4cwDL3wu4chTkvVDqEOhOz50LwWfxOE0Vl5dL4fIetUjcXQo9R7F9YSwPfEFKTtYzDaLfWX2PSHhgau6MGImfoWuGXT4FGxIFgyP8e~Baz1tq45wA8DP4cLRBh0d55~OHKqJ0AXrEmBV6EXTPYPcIB5IkyqrzSMafi7Hxoyn4BJhLI9uN7peq~rGMwdxwlh6SpYjbv8EaOh8ZgL3J-pGClW85Z~xtCHO~t54E2vAM-2xGTZBtf2DkNoWxxplONPhOavFBQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
-    background-color: transparent;
+header {
+    margin-top: -8px;
+    margin-left: -7.7px;
+    background: url(https://s3-alpha-sig.figma.com/img/1e32/8ef9/0cb1c8cdcfa73918c34c063dbd643ab6?Expires=1694390400&Signature=YKp4j10UKjBVsjZG6iX1vHywVLxTMMo3~YAaEVSU9l2tPv2aa8jVc-ehhovBH6wLodkeSHKh1Sp1WF0vCYeuCggeepd0wW8AqTeyFX6uU3zoeqthHNxxMSalLQnxHbO8w~JtBxvVIPujQxiaWXSbq14qA5IzOmE0tv17fNGBX--tnrU6gkp4ps9Kev5JrliKKaB-tEuOZpj~kCLLg7JWmab58rZN5PLK0vGSTZAvkSaJYAF86fRG-IyPi9bZtMUPTtVfueKyKYpr3Ntxz9xP8-hav3Zi9sMUqjhqwowg5P4WdXeZVFvzLk1WB6QblLexcs1AGRszjJTp8cRJPcRINQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4) center no-repeat;
+    height: 700px;
+    width: 1400px;
+    background-size: cover;
+}
+h2 {
+    font-size: 30px;
+    color: #4c575b;
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-top: 10px;
+}
+.text2 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+    display: block;
+    color: #4c575b;
+    font-size: 20px;
+}
+main {
+    width: 1200px;
+}
+.peredtext {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0 0 10px;
+    color: #4c575b;
+    font-size: 20px;
+}
+.text {
+    margin-left: 10px;
 }
